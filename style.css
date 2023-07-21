@@ -1,22 +1,54 @@
 
 *{
     font-family: 'Roboto';
+    
 }
+
 
 body{
     display: flex;
     flex-direction: column;
+    
 }
 
+.awesome img{
+    width: 700px;
+    height: 300px;
+}
+
+.info-block img{
+    width: 200px;
+    height: 200px;
+}
 .header,
 .awesome{
     background-color: #1F2937;
     display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.illustr-info{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+    color: #F9FAF8;
+    flex: 0 1 auto;
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    flex:1;
 }
 
 .hero-text h1{
@@ -38,14 +70,23 @@ body{
 .footer,
 button{
     background-color: #3882f6;
+    color:#F9FAF8;
+}
+
+button{
+    flex: 0 0 auto;
+    width: 80px;
+    height: 20px;
 }
 
 .random-info{
     display: flex;
     flex-direction: column;
+    flex:1;
 }
 .info-block{
     display: flex;
+    flex-direction: column;
 }
 .random-info h2{
     font-size: 36px;
@@ -58,6 +99,7 @@ button{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    flex:1;
 }
 
 #client-text{
@@ -66,7 +108,11 @@ button{
     font-weight: 200;
     color: #1F2937;
 }
+#client-name{
+    text-align: end;
+}
 
 .footer{
     display: flex;
+    flex:1;
 }
