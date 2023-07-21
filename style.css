@@ -29,6 +29,9 @@ body{
     align-items: center;
     padding: 8px;
 }
+.awesome{
+    padding : 30px 8px 30px;
+}
 .illustr-info{
     display: flex;
     justify-content: space-around;
@@ -76,7 +79,9 @@ button{
 button{
     flex: 0 0 auto;
     width: 80px;
-    height: 20px;
+    height: auto;
+    border-color: #F9FAF8;
+    border-width: 2px;
 }
 
 .random-info{
@@ -114,5 +119,16 @@ button{
 
 .footer{
     display: flex;
-    flex:1;
+    flex:0 0 auto;
+    margin: 50px;
+
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
