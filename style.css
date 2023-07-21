@@ -1,0 +1,72 @@
+
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.awesome{
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.footer,
+button{
+    background-color: #3882f6;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+}
+.info-block{
+    display: flex;
+}
+.random-info h2{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+
+}
+
+.client-rev{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+#client-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.footer{
+    display: flex;
+}
