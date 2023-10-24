@@ -20,6 +20,11 @@ body{
     width: 200px;
     height: 200px;
 }
+
+.info-block{
+    width: 200px;
+    padding: 20px;
+}
 .header,
 .awesome{
     background-color: #1F2937;
@@ -27,14 +32,21 @@ body{
     flex:1;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 8px 250px 50px;
+    
 }
-.awesome{
-    padding : 30px 8px 30px;
+
+
+
+.info-block img{
+    border-radius: 8px;
+    width : 150px;
+    height: 150px;
 }
 .illustr-info{
     display: flex;
     justify-content: space-around;
+    
 }
 ul{
     display: flex;
@@ -88,6 +100,7 @@ button{
     display: flex;
     flex-direction: column;
     flex:1;
+    align-items: center;
 }
 .info-block{
     display: flex;
@@ -105,6 +118,7 @@ button{
     display: flex;
     flex-direction: column;
     flex:1;
+    padding: 50px 520px 50px;
 }
 
 #client-text{
@@ -120,7 +134,7 @@ button{
 .footer{
     display: flex;
     flex:0 0 auto;
-    margin: 50px;
+    margin: 50px 250px 50px;
 
     align-items: center;
     justify-content: space-around;
@@ -131,4 +145,5 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
